@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="jin.bwey.com.man.view.activity.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/main_viewpager"
+        ></android.support.v4.view.ViewPager>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:id="@+id/main_radiogroup"
+            >
+            <RadioButton
+                android:id="@+id/main_rb_1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/selcetor_04"
+                android:gravity="center"
+                android:text="首页"
+                android:button="@null"
+                android:checked="true"
+
+                />
+
+            <RadioButton
+                android:id="@+id/main_rb_2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:button="@null"
+                android:drawableTop="@drawable/selcetor_02"
+                android:text="分类"
+                />
+
+            <RadioButton
+                android:id="@+id/main_rb_3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:button="@null"
+                android:drawableTop="@drawable/selcetor_03"
+                android:text="购物车"
+                />
+
+            <RadioButton
+                android:id="@+id/main_rb_4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+
+                android:drawableTop="@drawable/selcetor_04"
+                android:text="个人"
+                />
+
+        </RadioGroup>
+
+
+
+
+
+</LinearLayout>
